@@ -1,6 +1,7 @@
 header{
      background-image: url("../img/jumbo.png");
      background-size: cover;
+     background-repeat: no-repeat;
      padding: 20px;
 }
 
@@ -40,7 +41,7 @@ a{
      color: white;
 }
 
-.bg-celeste{
+.bg-purple{
      background-color: #836FFF;
      color: white;
 }
@@ -58,7 +59,6 @@ nav section ul li{
      padding-left: 40px;
 }
 
-
 .button{
      border-radius: 20px;
      padding: 10px 20px;
@@ -66,10 +66,11 @@ nav section ul li{
 }
 
 .intro{
-     margin-top: 20px;
+     margin: 0 auto;
      text-align: center;
      color: white;
-     padding: 90px 290px;
+     width: 50%;
+     padding-top: 100px;
 }
 
 h1{
@@ -106,7 +107,24 @@ main section{
      background-color: lightgray;
      min-height: 650px;
      text-align: center;
+}
 
+.stars{
+     padding-top: 10px;
+     background-image: url(../img/stars.svg);
+     background-repeat: no-repeat;
+     background-position: center top;
+     background-size: contain;
+}
+
+.wave{
+     background-image: url(../img/wave.svg);
+     height: 100px;
+     filter: invert(100%) sepia(0%) saturate(7434%) hue-rotate(51deg) brightness(121%) contrast(65%);
+}
+
+.rotate-180{
+     transform: rotate(180deg);
 }
 
 .sez-grande{
@@ -123,10 +141,8 @@ footer{
      padding: 20px 0;
 }
 
-select{
-     background-color: transparent;
-     border-color: transparent;
-     color: white;
+.fake-select{
+     align-items: center;
 }
 
 .row1{
